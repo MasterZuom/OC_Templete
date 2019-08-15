@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  OverseaInvestment
+//
+//  Created by mao zuo on 16/11/3.
+//  Copyright © 2016年 B2C. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//第三方库文件
+#import <AFNetworking/AFNetworking.h>
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MJExtension/MJExtension.h>
+#import <MBProgressHUD.h>
+#import <SVProgressHUD.h>
+#import <FSMediaPicker.h>
+#import <iOS-Echarts.h>
+
+//自定义文件
+#import "OINetWorkTool.h"
+#import "OINavigationController.h"
+#import "OILoginViewController.h"
+#import "OIAccountManager.h"
+#import "IQKeyboardManager.h"
+#import "OIGlobalParameter.h"
+#import "UIColor+HexString.h"
+#import "UIImage+Resize.h"
+#import "OIRiskCollectionController.h"
+
+#endif /* PrefixHeader_pch */

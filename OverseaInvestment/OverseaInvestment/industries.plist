@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>汽车及零配件</string>
+		<string>Automobiles - Components</string>
+	</array>
+	<array>
+		<string>资本品</string>
+		<string>Capital Goods</string>
+	</array>
+	<array>
+		<string>建筑</string>
+		<string>Construction</string>
+	</array>
+	<array>
+		<string>能源</string>
+		<string>Energy</string>
+	</array>
+	<array>
+		<string>金融服务</string>
+		<string>Financial Services</string>
+	</array>
+	<array>
+		<string>食品、饮料</string>
+		<string>Food and Beverage</string>
+	</array>
+	<array>
+		<string>政府</string>
+		<string>Government</string>
+	</array>
+	<array>
+		<string>酒店、餐饮</string>
+		<string>Hotels Restaurants - Leisure</string>
+	</array>
+	<array>
+		<string>家庭、个人产品</string>
+		<string>Household - Personal Products</string>
+	</array>
+	<array>
+		<string>医疗设备及服务</string>
+		<string>Health Care Equipment - Services</string>
+	</array>
+	<array>
+		<string>材料</string>
+		<string>Materials</string>
+	</array>
+	<array>
+		<string>媒体</string>
+		<string>Media</string>
+	</array>
+	<array>
+		<string>生物制药</string>
+		<string>Pharmaceuticals - Biotechnology</string>
+	</array>
+	<array>
+		<string>专业服务</string>
+		<string>Professional Services</string>
+	</array>
+	<array>
+		<string>房地产</string>
+		<string>Real Estate</string>
+	</array>
+	<array>
+		<string>零售店及服务</string>
+		<string>Retail Shops and Services</string>
+	</array>
+	<array>
+		<string>软件服务</string>
+		<string>Software - Services</string>
+	</array>
+	<array>
+		<string>硬件设备</string>
+		<string>echnology Hardware - Equipment</string>
+	</array>
+	<array>
+		<string>通讯服务</string>
+		<string>Telecommunication Services</string>
+	</array>
+	<array>
+		<string>交通</string>
+		<string>Transportation</string>
+	</array>
+	<array>
+		<string>公共事业</string>
+		<string>Utilities</string>
+	</array>
+	<array>
+		<string>其它</string>
+		<string>Other</string>
+	</array>
+</array>
+</plist>

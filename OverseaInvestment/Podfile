@@ -1,0 +1,42 @@
+platform :ios, "8.0"
+
+target :OverseaInvestment do
+  pod 'MKNetworkKit'
+  pod 'DateTools'
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
+  pod 'SVPullToRefresh'
+  pod 'BlocksKit'
+  pod 'CocoaLumberjack'
+  pod 'Tweaks'
+  pod 'Aspects'
+  pod 'fishhook'
+  pod 'CFCountryFlags'
+  pod 'SHEmailValidator'
+  pod 'OHAttributedLabel'
+  pod 'OHAttributedStringAdditions'
+  pod 'Mixpanel'
+  pod 'iRate'
+  pod 'Masonry'
+  pod 'EMCCountryPickerController', :git => "https://github.com/younthu/EMCCountryPickerController"
+  pod 'libPhoneNumber-iOS'
+  pod 'FSMediaPicker'
+  pod 'EasyImage'
+  pod "SDVersion"
+  pod 'RegExCategories'
+  pod 'NMRangeSlider'
+  pod 'MMPopupView'
+  pod "NSLogger"
+  pod "JTSImageViewController"
+  pod "TagListView-ObjC"
+  pod 'UIColor-HexString'
+  pod 'Heap'
+  
+  pod 'AFNetworking'
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'SVProgressHUD'
+  pod 'FFChineseSort'
+  pod 'iOS-Echarts'
+end
+

@@ -22,7 +22,26 @@
     [super viewDidLoad];
     // 添加子控制器
     [self setupChildsViewController];
-
+    
+    if (@available(iOS 15.0, *)){
+        
+        UITabBarAppearance *bar = [UITabBarAppearance new];
+        bar.stackedLayoutAppearance.selected.titleTextAttributes = @{NSFontAttributeName:[UIFont systemFontOfSize:16],NSForegroundColorAttributeName:[UIColor redColor]};
+        bar.stackedLayoutAppearance.normal.titleTextAttributes = @{NSFontAttributeName:[UIFont systemFontOfSize:16],NSForegroundColorAttributeName:[UIColor blueColor]};
+        self.tabBar.scrollEdgeAppearance = bar;
+        self.tabBar.standardAppearance = bar;
+    }else{
+        self.tabBar.backgroundColor = [UIColor whiteColor];
+        self.tabBar.barTintColor = [UIColor whiteColor];
+        self.tabBar.translucent = NO;
+    
+//        self.tabBar.backgroundColor = IUIColor whiteColorl:
+//        self.tabBar.barTintColor = [UlColor whiteColor1:
+//        self.tabBar.translucent = NO
+//        IUlTabBar appearance] setBackgroundlmage:(Ullmage imageWithColor:[UlColor whiteColorl:UlTabBarltem appearancel setTitleTextAttributes:@NSForegroundColorAttributeName:k tab normalColor!forState:UIControlStateNormall;
+//        (UlTabBarltem appearance] setTitleTextAttributes:@(NSForegroundColorAttributeName:[UlColor redColorj)forState:UlControlStateSelectedl;
+    }
+    
 }
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
